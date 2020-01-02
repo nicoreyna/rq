@@ -60,38 +60,24 @@ h3{
   margin: 15px 0 15px 20px;
 }
 
-.prop-dest{
-  background: #f1f4f8;
-}
-
-.destacadas{
-  padding: 15px;
-  position: relative;
-}
-
-/*contenedor imagenes destacadas*/
-.cont-destacadas{
+h1{
   display: flex;
-  width: 100%;
+  justify-content: center;
+  margin-top: 15px;
 }
 
-.destacadas img {
-  height: 250px;
-  width: 100%;
+.busqueda{
+ display: flex;
+ flex-direction: row;
+ justify-content: center; 
 }
 
-/*position absolute sobre el texto que está en el mismo contenedor donde está la imagen y ese contenedor debe tener position relative para que se sobreponga*/
-.precio{
-  position: absolute;
-  background: red;
-  margin-top: -60px;
+button{
+  margin: 20px;
+  padding: 15px;
+  font-size: large;
 }
 
-.barrio{
-  position: absolute;
-  background: blue;
-  margin: -35px 0 0 0;
+h1{
+  justify-content: center;
 }
-
-
-
